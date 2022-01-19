@@ -32,8 +32,8 @@
 #include <SPI.h>               // https://github.com/espressif/arduino-esp32/tree/master/libraries/SPI
 #include <WiFi.h>              // https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi
 #include <WiFiClientSecure.h>  // https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFiClientSecure
-#include <hal/hal.h>           // https://github.com/mcci-catena/arduino-lmic
 #include <lmic.h>              // https://github.com/mcci-catena/arduino-lmic
+#include <hal/hal.h>           // https://github.com/mcci-catena/arduino-lmic
 #include <ssl_client.h>        // https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFiClientSecure
 
 #include "WebConfig.h"
