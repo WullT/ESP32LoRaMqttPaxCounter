@@ -16,7 +16,38 @@ If LoRa is used, a `RFM95W` LoRa Module e.g. [Radio FeatherWing](https://www.ada
 
 ### Precompiled sketch
 
->todo...
+*Requires Python and pip*
+
+1. Clone the repo
+    ```sh
+    git clone https://github.com/WullT/ESP32LoRaMqttPaxCounter.git
+    ```
+2. On Windows
+      - Run [upload.bat](Compiled/upload.bat) and plugin the ESP32 as soon as you are asked to 
+   
+    On other OS
+    - Install [esptool](https://pypi.org/project/esptool/)
+        ```sh
+        pip install esptool
+        ```
+    - Run the Python Script [upload_to_node.py](Compiled/upload_to_node.py)
+        ```sh
+        # go to the Compiled/ directory
+        cd ~/ESP32LoRaMqttPaxCounter/Compiled
+        # run the uploader script
+        python upload_to_node.py
+        ```
+    - Plug in the ESP32 as soon as you are asked to
+
+- To enable serial output (for debug purpose), run:
+    ```sh
+    # go to the Compiled/ directory
+    cd ~/ESP32LoRaMqttPaxCounter/Compiled
+    python upload_to_node.py -d
+    ```
+
+
+
 
 ### Using Arduino IDE
 
