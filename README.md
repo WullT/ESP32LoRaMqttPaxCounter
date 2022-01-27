@@ -12,6 +12,10 @@ Counts the number of active BLE devices (smartphones).
 
 If LoRa is used, a `RFM95W` LoRa Module e.g. [Radio FeatherWing](https://www.adafruit.com/product/3231)
 
+### Wiring
+
+![schematics](Images/ESP32LoRaMqttPaxCounter.png)
+
 ## Setup
 
 ### Precompiled sketch
